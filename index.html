@@ -1,184 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Крафтовые Костровые Зоны в Подмосковье</title>
-  <!-- Подключение Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css ">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
-    }
-
-    body {
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-
-    header.hero {
-      background: url('https://picsum.photos/id/1074/1920/600 ') no-repeat center center/cover;
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 20px;
-    }
-
-    header p {
-      font-size: 1.25rem;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      background-color: #FFA500;
-      color: white;
-      padding: 15px 30px;
-      border: none;
-      cursor: pointer;
-      font-size: 1rem;
-      border-radius: 5px;
-      transition: background 0.3s ease;
-    }
-
-    .btn:hover {
-      background-color: #e59400;
-    }
-
-    section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
-
-    .section-title {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      text-align: center;
-    }
-
-    .features ul {
-      list-style: none;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    .features li {
-      background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 15px;
-    }
-
-    .gallery img {
-      width: 100%;
-      border-radius: 10px;
-    }
-
-    .pricing {
-      text-align: center;
-    }
-
-    .price-card {
-      background: white;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-      margin: 20px auto;
-      max-width: 500px;
-    }
-
-    .price-card h3 {
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
-
-    .price-card p {
-      font-size: 1.2rem;
-      color: #555;
-    }
-
-    form input, form textarea {
-      width: 100%;
-      padding: 12px;
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      font-size: 1rem;
-    }
-
-    form button {
-      width: 100%;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #222;
-      color: white;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      .section-title {
-        font-size: 1.5rem;
-      }
-    }
-
-    /* Стили для плавающей кнопки WhatsApp */
-    .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366; /* Цвет WhatsApp */
-      color: white;
-      border: none;
-      padding: 15px 25px;
-      border-radius: 50%;
-      cursor: pointer;
-      font-size: 24px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
-    .whatsapp-button:hover {
-      transform: scale(1.1); /* При наведении увеличиваем размер */
-    }
-  </style>
-</head>
-<body>
-
-  <!-- Главная секция -->
-  <header class="hero">
-    <h1>Крафтовые Костровые Зоны в Подмосковье</h1>
-    <p>Создайте уютное место отдыха за городом всего за 120 000 ₽</p>
-    <button class="btn" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Оставить заявку</button>
-  </header>
-
-  <!-- Преимущества -->
-  <section class="features">
-    <h2 class="section-title">Почему выбирают нас?</h2>
-    <ul>
-      <li>🌿 Изготовлено из натурального дерева премиум-класса</li>
-      <li>🔥 Устойчивость к погодным условиям и огню</li>
-      <li>📦 Встроенные места для дров и удобные скамьи</li>
-      <li>🎨 Современный дизайн под любой участок</li>
+        <i class="fas fa-tree"></i>
+        <div>
+          <h3>Натуральное дерево</h3>
+          <p>Изготовлено из дерева премиум-класса, безопасного для открытого огня.</p>
+        </div>
+      </li>
+      <li>
+        <i class="fas fa-fire"></i>
+        <div>
+          <h3>Устойчивость к погоде</h3>
+          <p>Конструкция выдерживает любые погодные условия и прослужит много лет.</p>
+        </div>
+      </li>
+      <li>
+        <i class="fas fa-box-open"></i>
+        <div>
+          <h3>Место для дров</h3>
+          <p>Встроенное хранение для дров и удобные скамьи в одной конструкции.</p>
+        </div>
+      </li>
+      <li>
+        <i class="fas fa-paint-brush"></i>
+        <div>
+          <h3>Современный дизайн</h3>
+          <p>Костровая зона подходит под любой ландшафт и стиль участка.</p>
+        </div>
+      </li>
     </ul>
   </section>
 
